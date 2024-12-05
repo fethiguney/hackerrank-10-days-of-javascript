@@ -10,4 +10,5 @@ function getSecondLargest(nums) {
     const uniqueSortedArray= [... new Set(sortedArray)];
     return uniqueSortedArray[uniqueSortedArray.length-2];
     
+    
 }
